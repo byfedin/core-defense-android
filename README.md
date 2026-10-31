@@ -40,7 +40,7 @@ I developed a custom scoring engine using 20+ behavioral and permission-based si
 
 ### Subscription monetization
 
-I implemented multi-plan monetization with Google Play Billing, purchase-validation integrations, and purchase-token deduplication. Subscription and regional pricing work improved conversion by approximately 15–25%.
+I implemented multi-plan monetization with Google Play Billing, purchase-validation integrations, and purchase-token deduplication. Subscription and regional pricing work improved conversion by 15–25%.
 
 ### Analytics and attribution
 
