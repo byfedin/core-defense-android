@@ -1,6 +1,6 @@
 # Core Defense — Android engineering case study
 
-Native Android defender app that brings device security signals, an explainable score, reviewable insights, and subscription features into one interface.
+Native Android defender app that brought device security signals, an explainable score, reviewable insights, and subscription features into one interface.
 
 **[Full case study ↗](https://byfedin.dev/core-defense) · [Watch the 22-second demo ↗](https://byfedin.dev/core-defense#demo-title)**
 
@@ -12,7 +12,8 @@ I owned Android development across architecture, Compose UI, on-device analysis,
 
 **Platform:** Android  
 **Delivery:** Google Play release delivery  
-**Stack:** Kotlin · Jetpack Compose · Coroutines & Flow · Google Play Billing · Firebase · AppMetrica · Remote Config
+**Stack:** Kotlin · Jetpack Compose · Coroutines & Flow · Google Play Billing · Firebase · AppMetrica · Remote Config  
+**Status:** No longer in active development
 
 ## The application
 
@@ -29,13 +30,13 @@ I owned Android development across architecture, Compose UI, on-device analysis,
 </tr>
 </table>
 
-<sub>Actual app captures from a Pixel 9 Pro XL. Open the full case study for larger screenshots and the device walkthrough.</sub>
+<sub>Actual captures of the application as shipped, from a Pixel 9 Pro XL. Open the full case study for larger screenshots and the device walkthrough.</sub>
 
 ## Engineering work
 
 ### On-device scoring
 
-I developed a custom scoring engine using 20+ behavioral and permission-based signals on a 0–100 scale. The product connects the summary score to app signals and device settings that users can review.
+I developed a custom scoring engine using 20+ behavioral and permission-based signals on a 0–100 scale. The product connected the summary score to app signals and device settings that users can review.
 
 ### Subscription monetization
 
@@ -43,7 +44,7 @@ I implemented multi-plan monetization with Google Play Billing, purchase-validat
 
 ### Analytics and attribution
 
-An analytics abstraction supports Firebase and AppMetrica, structured funnel events, and experiments through Remote Config. Attribution integrations use the Install Referrer API and server-side postbacks.
+An analytics abstraction supported Firebase and AppMetrica, structured funnel events, and experiments through Remote Config. Attribution integrations used the Install Referrer API and server-side postbacks.
 
 ### Release ownership and integrations
 
